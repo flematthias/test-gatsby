@@ -1,0 +1,11 @@
+---
+application:
+  name: "test-gatsby"
+  project: "PointEco"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-test-gatsby"
+  routes:
+  - application_name: "test-gatsby"
+    paths:
+    - "/*"
